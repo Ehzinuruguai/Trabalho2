@@ -5,3 +5,11 @@
     --cor-destaque:#4D6787;
     --cor-de-texto:#F62477;
 }
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-de-texto); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+}
