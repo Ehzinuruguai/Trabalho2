@@ -1,67 +1,123 @@
+
+```javascript
 const perguntas = [
+
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Assim que saiu da escola você percebe que suas escolhas podem ajudar a construir o futuro do Brasil. Pensando nisso, qual é o primeiro pensamento?",
+
         alternativas: [
+
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Quero ajudar a transformar o Brasil!",
+
+                afirmacao: "Começou a pensar em maneiras de contribuir para melhorar o futuro do país."
             },
+
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Não sei se minhas escolhas fazem diferença.",
+
+                afirmacao: "Percebeu que pequenas atitudes também podem contribuir para transformar a sociedade."
             }
+
         ]
+
     },
+
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+
+        enunciado: "Com essa ideia em mente, sua professora decidiu fazer uma atividade sobre os principais desafios do Brasil. Ela pede que você escolha uma área para ajudar a transformar. Qual atitude você toma?",
+
         alternativas: [
+
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+
+                texto: "Escolhe a educação, buscando ideias para melhorar o aprendizado e aumentar as oportunidades.",
+
+                afirmacao: "Percebeu que investir em educação pode abrir novas oportunidades para muitas pessoas."
             },
+
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+
+                texto: "Escolhe a tecnologia, buscando soluções que possam facilitar a vida das pessoas.",
+
+                afirmacao: "Começou a imaginar como novas tecnologias poderiam ajudar diferentes comunidades brasileiras."
             }
+
         ]
+
     },
+
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+
+        enunciado: "Depois da atividade, a professora propôs um debate sobre o futuro do Brasil. A turma discutiu meio ambiente, economia, educação e tecnologia. Nesse debate, como você se posiciona?",
+
         alternativas: [
+
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+
+                texto: "Defende que o desenvolvimento do Brasil deve acontecer junto com a preservação do meio ambiente.",
+
+                afirmacao: "Passou a pesquisar maneiras de incentivar desenvolvimento econômico sem abandonar a responsabilidade ambiental."
             },
+
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+
+                texto: "Defende que criar oportunidades de trabalho e melhorar a qualidade de vida deve ser prioridade.",
+
+                afirmacao: "Começou a pensar em projetos capazes de criar oportunidades e melhorar a vida das comunidades."
             }
+
         ]
+
     },
+
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+
+        enunciado: "Ao final da discussão, você precisa criar uma campanha que represente sua visão sobre o futuro do Brasil. E agora?",
+
         alternativas: [
+
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+
+                texto: "Criar uma campanha mostrando como a educação pode transformar diferentes regiões do Brasil.",
+
+                afirmacao: "Percebeu que compartilhar conhecimento pode inspirar outras pessoas a participarem das mudanças."
             },
+
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+
+                texto: "Criar uma campanha mostrando como tecnologia e inovação podem transformar o país.",
+
+                afirmacao: "Começou a incentivar outras pessoas a conhecerem novas tecnologias e criarem soluções para problemas."
             }
+
         ]
+
     },
+
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+
+        enunciado: "Você participa de um projeto escolar onde precisa escolher uma atitude para ajudar a construir um Brasil melhor. Qual decisão você toma?",
+
         alternativas: [
+
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+
+                texto: "Acredita que cada pessoa deve cuidar apenas das próprias escolhas e deixar as mudanças para outras pessoas.",
+
+                afirmacao: "Percebeu que suas atitudes também fazem parte da construção do futuro e começou a participar mais."
             },
+
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+
+                texto: "Acredita que cada pessoa pode contribuir e que mudanças acontecem quando a sociedade participa.",
+
+                afirmacao: "Entendeu que construir o futuro do Brasil depende de participação, responsabilidade e colaboração entre pessoas."
             }
+
         ]
+
     },
+
 ];
+```
