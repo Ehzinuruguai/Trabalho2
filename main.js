@@ -1,5 +1,5 @@
 
-```javascript
+
 const perguntas = [
 
     {
