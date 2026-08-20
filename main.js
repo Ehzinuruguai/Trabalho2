@@ -130,6 +130,7 @@ let atual= 0;
 let perguntaAtual;
 let historiaFinal= ""
 
+
 function mostraPergunta() {
     if(atual >= perguntas.length){
     mostraResultado()
@@ -138,4 +139,13 @@ function mostraPergunta() {
     perguntaAtual = perguntas[atual]
     caixaPerguntas.textContext = perguntaAtual
 }
-mostraPergunta()
+mostraPergunta(){
+
+}
+function mostraAlternativas(){
+for (const alternativa of perguntaAtual.alternativas){
+    const botaoAlternativas = document.createElement
+}
+}
+
+Pergunta()
