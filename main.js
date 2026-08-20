@@ -129,11 +129,11 @@ let perguntaAtual;
 let historiaFinal= ""
 
 function mostraPergunta() {
-    if(atual >= pegunta.length){
+    if(atual >= perguntas.length){
     mostraResultado()
     return
     }
-    perguntaAtual = pergunta[atual]
+    perguntaAtual = perguntas[atual]
     caixaPerguntas.textContext = perguntaAtual
 }
 mostraPergunta()
