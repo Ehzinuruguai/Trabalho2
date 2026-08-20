@@ -136,3 +136,4 @@ function mostraPergunta() {
     perguntaAtual = perguntas[atual]
     caixaPerguntas.textContext = perguntaAtual
 }
+mostraPergunta()
