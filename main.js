@@ -4,6 +4,8 @@ const caixaALternativas= document.querySelector(".caixa-alternativas")
 const caixaResultado= document.querySelector(".caixa-resultado")
 const textoResultado= document.querySelector(".texto-texto")
 
+alert("teste")
+
 const perguntas = [
 
     {
